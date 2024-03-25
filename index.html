@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Steps URP</title>
+    <title>Unity WebGL Player | WebGL-2024</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Steps URP</div>
+        <div id="unity-build-title">WebGL-2024</div>
       </div>
     </div>
     <script>
@@ -57,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/wgl-003.loader.js";
+      var loaderUrl = buildUrl + "/SampleScene.loader.js";
       var config = {
-        dataUrl: buildUrl + "/wgl-003.data",
-        frameworkUrl: buildUrl + "/wgl-003.framework.js",
-        codeUrl: buildUrl + "/wgl-003.wasm",
+        dataUrl: buildUrl + "/SampleScene.data.gz",
+        frameworkUrl: buildUrl + "/SampleScene.framework.js.gz",
+        codeUrl: buildUrl + "/SampleScene.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Steps URP",
-        productVersion: "0.1.0",
+        productName: "WebGL-2024",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
